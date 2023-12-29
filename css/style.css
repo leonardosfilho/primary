@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    /* Váriaveis  */
+    --var-primary-color: #010409;
+    --var-secundary-color: #0D1117;
+    --var-color-text: #BBC2C7;
+    --var-color-borda:#1f2b3b;
+    --var-color-button:#142842;
+
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--var-secundary-color);
+}
+.app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+ }
+ h1 {
+    color: #FFFF
+ }
+.menu-lateral {
+    border: 1px solid var(--var-color-borda);
+    background-color: var(--var-secundary-color);
+    width: 22.7rem;
+    height: 100vh;
+    position:fixed;
+    left:0;
+   
+}
+
+.linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    width: 80%;
+    background-color: var(--var-color-text);
+}
+
+.menu-lateral form {
+
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap:3.2rem;
+    flex-direction: column;
+}
+form button {
+    border:1px solid var(--var-primary-color);
+    border-radius: .5rem;
+    font-weight: 700;
+    text-align: center;
+    font-size:1.6rem;
+    /* border:  var(--var-color-text); */
+    background-color: var(--var-color-button);
+    color: #FFFF;
+    width: 90%;
+    height: 4.6rem;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: var(--var-primary-color);
+}
+ .menu-lateral button i {
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--var-color-text)
+}
+
+#apresentation img {
+    
+    
+    width: 14rem;
+    height: 13rem;
+}
+#apresentation {
+    margin-top: 2rem;
+    border-radius: .5rem;
+    border: 1px solid var(--var-color-borda);
+    font-weight: 400;
+    gap:3rem;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    
+    background-color: var(--var-secundary-color);
+    margin-bottom: 1rem;
+    
+}
+
+.escopo {
+    margin: 0 auto;
+    width: 50%;
+    color: var(--var-color-text);
+   
+
+}
+
+.text h1 {
+    padding-bottom: 1rem;
+    color: #FFFF;
+}
+.text p {
+    padding-bottom: 1rem;
+}
+
+.text span {
+    gap:5rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    padding:.2rem;
+    background-color: #1f2b3b;
+}
+
+.conteudo {
+    background-color: var(--var-secundary-color);
+    border: 1px solid var(--var-color-borda);
+    border-radius: .5rem;
+    padding: 3rem;
+    margin-bottom: 1rem;
+}
+.conteudo, .experiencia, .post, h1 {
+    padding-bottom: 2rem;
+}
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+.experiencia {
+    width: 50%;
+    background-color: var(--var-secundary-color);
+    border-radius: .5rem;
+    border: 1px solid var(--var-color-borda);
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+    
+}
+.post {
+    width: 50%;
+    background-color: var(--var-primary-color);
+    border-radius: .5rem;
+    border: 1px solid var(--var-color-borda);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: .5rem;
+    padding:1rem;
+}
+
+.content img {
+    width: 50px;
+    border-radius: 50%;
+   
+}
+
+#curriculo  {
+    text-align: center;
+    
+}
+#curriculo button {
+    border: 1px solid var(--var-primary-color);
+    width: 90%;
+    border-radius: .5rem;
+    background-color:  #114283;
+    padding: 1.5rem;
+    color: #FFFF;
+    font-weight: 700;
+    cursor: pointer;
+    font-size:1.8rem;
+}
+.content-main {
+   
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    margin-bottom: 5rem;
+}
+
+.content-text {
+    background-color: var();
+}
+.content-text span{
+    border-radius: .5rem;
+    padding:.2rem;
+    background-color: #1f2b3b;
+    font-size:1.8rem;
+    font-weight: 700;
+}
+
+.content-text p {
+    margin-top:1rem;
+    font-weight: 400;
+}
+.relaxe {
+    display: flex;
+    flex-direction: column;
+}
+.relaxe img{
+    border-radius: .5rem;
+    padding-top:1rem;
+    width: 100%;
+    height: 100%;
+    
+}
